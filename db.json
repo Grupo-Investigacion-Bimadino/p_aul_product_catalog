@@ -1,0 +1,30 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "valor":20000,
+            "marca":"Norma",
+            "cantidad":50,
+            "descuento":0.5
+        }
+    ],
+    "proveedores": [
+        {
+            "id":2,
+            "nombre":"Zeppelin",
+            "apellido":"",
+            "marca":"Norma",
+            "cantidad":50
+        }
+    ],
+    "tiendas": [
+        {
+            "id":3,
+            "ubicación":"Medellin",
+            "administrador":"Carlos Lopez"
+            
+        }
+    ]
+
+}
+    
