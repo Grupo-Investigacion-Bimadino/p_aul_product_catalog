@@ -1,30 +1,41 @@
 {
-    "productos":[
-        {
-            "id":1,
-            "valor":20000,
-            "marca":"Norma",
-            "cantidad":50,
-            "descuento":0.5
-        }
-    ],
-    "proveedores": [
-        {
-            "id":2,
-            "nombre":"Zeppelin",
-            "apellido":"",
-            "marca":"Norma",
-            "cantidad":50
-        }
-    ],
-    "tiendas": [
-        {
-            "id":3,
-            "ubicación":"Medellin",
-            "administrador":"Carlos Lopez"
-            
-        }
-    ]
-
+  "productos": [
+    {
+      "id": 1,
+      "valor": 25000,
+      "marca": "Norma",
+      "cantidad": 50,
+      "descuento": 0.5
+    },
+    {
+      "id": 3,
+      "valor": 30000,
+      "marca": "Nacho",
+      "cantidad": 70,
+      "descuento": 0.3
+    },
+    {
+      "id": 4,
+      "valor": 40000,
+      "marca": "Estrella",
+      "cantidad": 60,
+      "descuento": 0.4
+    }
+  ],
+  "proveedores": [
+    {
+      "id": 3,
+      "nombre": "Maria",
+      "apellido": "Montes",
+      "marca": "Faber Castell",
+      "cantidad": 80
+    }
+  ],
+  "tiendas": [
+    {
+      "id": 4,
+      "ubicación": "Manizales",
+      "administrador": "Valeria Lopez"
+    }
+  ]
 }
-    
