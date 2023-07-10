@@ -2,40 +2,52 @@
   "productos": [
     {
       "id": 1,
-      "valor": 25000,
-      "marca": "Norma",
-      "cantidad": 50,
-      "descuento": 0.5
-    },
+      "titulo":0 ,
+      "descripcion": "",
+      "imagenes": 0 ,
+      "cantidad": 0.0
+    }
+    
+  ],
+  "carritos": [
     {
       "id": 3,
-      "valor": 30000,
-      "marca": "Nacho",
-      "cantidad": 70,
-      "descuento": 0.3
-    },
-    {
-      "id": 4,
-      "valor": 40000,
-      "marca": "Estrella",
-      "cantidad": 60,
-      "descuento": 0.4
+      "titulo": "",
+      "categoria": ""
+      
     }
   ],
-  "proveedores": [
-    {
-      "id": 3,
-      "nombre": "Maria",
-      "apellido": "Montes",
-      "marca": "Faber Castell",
-      "cantidad": 80
-    }
-  ],
-  "tiendas": [
+  "usuarios": [
     {
       "id": 4,
-      "ubicación": "Manizales",
-      "administrador": "Valeria Lopez"
+      "nombre": "Valeria",
+      "apellido": "Lopez",
+      "nickname": "Val",
+      "correo": "valeria09@hotmail.com",
+      "contrasena": ""
     }
-  ]
+  ],
+
+  "busquedas": [
+    {
+      "id":5,
+      "titulo": "",
+      "filtro": "",
+      "fecha": ""
+    }
+],
+"catalogos": [
+  {
+    "id": 2,
+    "titulo": "",
+    "descripcion": "",
+    "producto": ""
+  }
+],
+"recomendaciones": [
+  {
+    "id": 1,
+    "id producto": ""
+  }
+]
 }
